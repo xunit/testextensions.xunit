@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="vstestextensions.xunit.e1d3ffb9-595d-4b29-8038-fdd1f2a8f16c" Version="99.99.99.0" Language="en-US" Publisher="Outercurve Foundation" />
+        <DisplayName>xUnit.net Test Extensions</DisplayName>
+        <Description xml:space="preserve">Test Extensions for xUnit.net test generation, for Visual Studio 2015 (or later)</Description>
+        <MoreInfo>https://github.com/xunit/testextensions.xunit</MoreInfo>
+        <License>LICENSE</License>
+        <Icon>logo-512-transparent.png</Icon>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.TestGenerationExtension" d:Source="Project" d:ProjectName="CreateUnitTest.Xunit" Path="|CreateUnitTest.Xunit|" />
+        <Asset Type="Microsoft.VisualStudio.IntellitestExtension" d:Source="Project" d:ProjectName="IntelliTest.Xunit" Path="|IntelliTest.Xunit|" />
+    </Assets>
+</PackageManifest>
