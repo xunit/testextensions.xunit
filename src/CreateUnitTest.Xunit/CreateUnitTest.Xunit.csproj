@@ -69,6 +69,7 @@
     <Compile Include="ProjectTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XunitFrameworkProvider.cs" />
+    <Compile Include="XunitFrameworkProvider_2_1.cs" />
     <Compile Include="XunitFrameworkProvider_2_0.cs" />
     <Compile Include="XunitSolutionManager.cs" />
     <Compile Include="XunitUnitTestClassManager.cs" />

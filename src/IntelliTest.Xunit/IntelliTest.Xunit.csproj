@@ -59,6 +59,7 @@
     <Compile Include="XunitAssertMethodFilter.cs" />
     <Compile Include="XunitTestFramework.cs" />
     <Compile Include="XunitTestFrameworkPackageAttribute.cs" />
+    <Compile Include="XunitTestFramework_2_1.cs" />
     <Compile Include="XunitTestFramework_2_0.cs" />
     <Compile Include="XunitTestFrameworkMetadata.cs" />
     <Compile Include="XunitTestFrameworkPackage.cs" />
