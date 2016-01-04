@@ -8,7 +8,7 @@ namespace IntelliTest.Xunit
     {
         public XunitTestFramework_2_1(IPexComponent host)
             : base(host,
-                   name: "xunit-2.0",
+                   name: "xunit-2.1",
                    prettyName: "xUnit.net 2.1",
                    xunitPackageVersion: "2.1.0",
                    visualStudioRunnerPackageVersion: "2.1.0")
