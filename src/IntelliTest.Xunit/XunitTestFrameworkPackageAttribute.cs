@@ -17,6 +17,7 @@ namespace IntelliTest.Xunit
             var host = testFrameworkService as IPexComponent;
 
             testFrameworkService.AddTestFramework(new XunitTestFramework_2_0(host));
-        }
+			testFrameworkService.AddTestFramework(new XunitTestFramework_2_1(host));
+		}
     }
 }
