@@ -63,6 +63,7 @@
     <Compile Include="XunitTestFramework_2_0.cs" />
     <Compile Include="XunitTestFrameworkMetadata.cs" />
     <Compile Include="XunitTestFrameworkPackage.cs" />
+    <Compile Include="XunitTestFramework_2_2.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
